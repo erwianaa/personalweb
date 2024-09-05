@@ -1,0 +1,87 @@
+#homepage {
+
+}
+
+#upper1,
+#middle2,
+#lower3,
+#ground4,
+#footer,
+#blog,
+#about {
+    display: flex;
+    padding: 75px 250px;
+}
+
+#upper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 250px;
+}
+
+#middle2 {
+    background: #8fb25c;
+    color: white;
+}
+
+.area2 {
+    display: flex;
+}
+
+.area2-image {
+    width: 350px;
+}
+
+.area2-right {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    line-height: 35px;
+}
+
+.discover-button {
+
+}
+
+#ground4 {
+    background-image: url("../img/botanical1.jpeg");
+    color: white;
+    background-size: cover;
+}
+
+
+#footer {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.botanical-image {
+    background-image: url("../img/botanical1.jpeg");
+    color: white;
+    background-size: cover;
+    height: 300px;
+}
+
+#blog {
+    flex-direction: column;
+}
+
+.article {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    align-items: center;
+}
+
+.article-right {
+    margin-left: 50px;
+}
+
+.article-left {}
+.article-date {
+    color: grey;
+}

@@ -8,7 +8,8 @@
 #ground4,
 #footer,
 #blog,
-#about {
+#about,
+#porto {
     display: flex;
     padding: 75px 250px;
 }
@@ -42,7 +43,16 @@
 }
 
 .discover-button {
+    background: #243c07;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
 
+.discover-button:hover,
+.discover-button:focus {
+    background: #346e05;
 }
 
 #ground4 {
@@ -64,7 +74,8 @@
     height: 300px;
 }
 
-#blog {
+#blog,
+#porto {
     flex-direction: column;
 }
 
@@ -84,4 +95,40 @@
 .article-left {}
 .article-date {
     color: grey;
+}
+
+.porto-card {
+    margin-bottom: 50px;
+}
+
+.porto-card span {
+    color: gray;
+    font-size: 14px;
+    display: block;
+}
+
+#about {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-image: url('../img/botanical1.jpeg');
+    color: white;   
+    background-size: cover;
+    display: flex;
+}
+
+.get-to-know-me,
+.purpose {
+    text-align: center;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.layer {
+    background: rgba(255,255,255, 0.2);
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
